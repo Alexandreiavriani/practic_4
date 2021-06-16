@@ -1,0 +1,15 @@
+set @autoid :=0; 
+update menu set id = @autoid := (@autoid+1);
+alter table menu  Auto_Increment = 1;
+
+
+drop table
+
+DROP TABLE table1_name, table2_name, ...;
+
+
+
+change column name 
+
+ALTER TABLE Student CHANGE Name First_Name varchar(20);
+
